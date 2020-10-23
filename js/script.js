@@ -106,8 +106,8 @@ function atasFunction() {
 }
 
 function w3_open() {
-    document.getElementById("main").style.marginLeft = "25%";
-    document.getElementById("koito97Sidebar").style.width = "25%";
+    document.getElementById("main").style.marginLeft = "35%";
+    document.getElementById("koito97Sidebar").style.width = "35%";
     document.getElementById("koito97Sidebar").style.display = "block";
     document.getElementById("koito97openNav").style.display = 'none';
 }
