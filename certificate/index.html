@@ -14,10 +14,12 @@
 
     <button onclick="atasFunction()" id="koito97TopBtn"><i class="fas fa-angle-up fa-lg"></i></button>
 
-    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display: none;" id="koito97Sidebar">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-teal" style="display: none; z-index: 5;" id="koito97Sidebar">
         <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">&times;</button>
         <a href="https://koito97.github.io/" class="w3-bar-item w3-button">Kembali</a>
     </div>
+
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor: pointer;" id="koito97Overlay"></div>
 
     <div class="w3-sand">
         <button id="koito97openNav" class="w3-button w3-sand w3-xlarge" onclick="w3_open()">☰</button>
