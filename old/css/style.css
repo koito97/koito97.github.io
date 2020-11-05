@@ -7,13 +7,13 @@ body {
 }
 
 a {
-  color: LightGreen;
+  color: lightskyblue;
   font-size: large;
   text-decoration: none;
 }
 
 a:hover {
-  color: Snow;
+  color: lightcoral;
   text-decoration: none;
 }
 

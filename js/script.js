@@ -88,6 +88,51 @@ function movew3f() {
     }
 }
 
+function moveyuri() {
+    var elem = document.getElementById("yurikoito97bar")
+    var width = 5;
+    var id = setInterval(frame, 10);
+    function frame () {
+        if (width >= 100) {
+            clearInterval(id);
+        } else {
+            width++;
+            elem.style.width = width + '%';
+            elem.innerHTML = width * 1 + '%';
+        }
+    }
+}
+
+function moveshoujoai() {
+    var elem = document.getElementById("shoujoaikoito97bar")
+    var width = 5;
+    var id = setInterval(frame, 10);
+    function frame () {
+        if (width >= 99) {
+            clearInterval(id);
+        } else {
+            width++;
+            elem.style.width = width + '%';
+            elem.innerHTML = width * 1 + '%';
+        }
+    }
+}
+
+function movemahoushoujo() {
+    var elem = document.getElementById("mahoushoujokoito97bar")
+    var width = 5;
+    var id = setInterval(frame, 10);
+    function frame () {
+        if (width >= 89) {
+            clearInterval(id);
+        } else {
+            width++;
+            elem.style.width = width + '%';
+            elem.innerHTML = width * 1 + '%';
+        }
+    }
+}
+
 mybutton = document.getElementById("koito97TopBtn");
 
 window.onscroll = function() {scrollFunction()}
