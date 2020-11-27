@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: lightskyblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+#koito97TopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: lightskyblue;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}

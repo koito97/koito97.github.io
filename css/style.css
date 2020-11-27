@@ -1,28 +1,18 @@
-html {
-    scroll-behavior: smooth;
+body, html {
+    height: 100%;
+}
+
+.koito97bgrimg {
+    background-image: url('img/Yozora-2.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 a {
-    color: lightskyblue;
     text-decoration: none;
-    font-size: large;
 }
 
 a:hover {
-    color: lightcoral;
-}
-
-#koito97TopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: lightskyblue;
-    color: black;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 18px;
+    color: tomato;
 }
