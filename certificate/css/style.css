@@ -2,14 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-a {
-    color: lightskyblue;
-    text-decoration: none;
-    font-size: large;
-}
-
-a:hover {
-    color: lightcoral;
+#footer {
+    background-color: #AAB8C2;
 }
 
 #koito97TopBtn {

@@ -3,7 +3,7 @@ function movehtml() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame () {
-        if (width >= 60) {
+        if (width >= 50) {
             clearInterval(id);
         } else {
             width++;
@@ -33,7 +33,7 @@ function movejs() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame () {
-        if (width >= 35) {
+        if (width >= 50) {
             clearInterval(id);
         } else {
             width++;
@@ -48,7 +48,7 @@ function movebs() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame () {
-        if (width >= 45) {
+        if (width >= 50) {
             clearInterval(id);
         } else {
             width++;
@@ -63,7 +63,7 @@ function movegit() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame () {
-        if (width >= 70) {
+        if (width >= 50) {
             clearInterval(id);
         } else {
             width++;
@@ -78,7 +78,7 @@ function movew3f() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame () {
-        if (width >= 55) {
+        if (width >= 50) {
             clearInterval(id);
         } else {
             width++;
