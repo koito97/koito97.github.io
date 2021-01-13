@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#footer {
-    background-color: #AAB8C2;
-}
-
 #koito97TopBtn {
     display: none;
     position: fixed;
